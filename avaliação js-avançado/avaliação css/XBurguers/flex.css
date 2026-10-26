@@ -1,0 +1,158 @@
+
+.topo{
+    background-color: rgba(37, 36, 36, 0.566);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    
+}
+
+.introducao{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#lcm{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.lancamento{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.comprar{
+    display: flex;
+    padding: 10px;
+}
+
+.container{
+    padding: 20px;
+    gap: 20px;
+}
+
+.info-delivery{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.xmonster2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.cburguer2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.mburguer2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.vburguer2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.tburguer2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.xdog2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.xbrownie2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px ;
+    padding: 100px;
+}
+
+.texto-promo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.autenticado{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 20px ;
+    padding: 10px;
+
+}
+
+.voltar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#contador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+#timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}

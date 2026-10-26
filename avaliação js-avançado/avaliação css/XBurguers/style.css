@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#xbg::first-letter{
+    color: rgb(255, 191, 0);
+    font-size: 40px;
+}
+
+.menu-item a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+
+.menu-item a:hover{
+    scale: 1.1;
+    color: rgba(253, 186, 0, 0.789);
+    font-size: 17px;
+    
+}
+
+h1{
+   text-shadow: 1px 5px 4px rgba(216, 206, 206, 0.566);
+   font-weight: 700;
+   
+}
+
+#xb::first-letter{
+    color: rgb(255, 191, 0);
+    
+}
+
+h3{
+    font-weight: 600;
+    font-size: 30px;
+    font-family:  url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    font-style: italic ;
+    text-shadow: 1px 4px 4px rgba(216, 206, 206, 0.566);
+
+}
+
+
+.introducao img{
+    border-radius: 10px;
+}
+
+h2{
+    color: rgb(237, 229, 206);
+    font-weight: 600;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.card{
+    padding: 20px;
+    gap: 20px; 
+}
+
+.foto{
+    border-radius: 20px;
+    box-shadow: 3px 2px 3px rgba(174, 134, 78, 0.878);
+    transition: 0.5s;
+}
+
+.foto:hover{
+    scale: 0.95;
+}
+
+.cburguer img{
+    width: 290px;
+    height: 380px;   
+}
+
+.mburguer img{
+    width: 290px;
+    height: 380px;   
+}
+
+.tburguer img{
+    width: 290px;
+    height: 380px;  
+}
+
+.detalhes h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 191, 0);
+}
+
+.estrelas{
+    color: rgb(255, 191, 0);
+    font-size: 30px;
+}
+
+button{
+    background-color: rgba(188, 188, 184, 0.749);
+    border: transparent;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgb(255, 191, 0);
+    color: black;
+    scale: 1.1;
+}
+
+
+#x::first-letter{
+    color: rgba(255, 0, 0, 0.795);
+    font-size: 60px;
+    text-shadow: 3px 3px 4px rgba(239, 189, 171, 0.795);
+}
+
+#x{
+    text-shadow: 3px 3px 4px rgba(255, 0, 0, 0.795);
+}
+
+.xmonster img{
+    border-radius: 10px;
+    box-shadow: 4px 3px 5px rgba(255, 0, 0, 0.416);
+}
+
+.apresentacao h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 206, 132);
+}
+
+.cdp button{
+    background-color: rgba(255, 255, 254, 0.749);
+    border: transparent;
+    border-radius: 10px;
+    width: 80px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.cdp button:hover{
+    background-color: rgb(255, 191, 0);
+    color: black;
+    scale: 1.1;
+}
+
+strong{
+    color: goldenrod;
+    font-size: 30px;
+}
+
+.xmonster2 img{
+    width: 290px;
+    height: 380px; 
+}
+
+.cburguer2 img{
+    width: 290px;
+    height: 380px;
+}
+
+.mburguer2 img{
+    width: 290px;
+    height: 380px;
+}
+
+.vburguer2 img{
+    width: 290px;
+    height: 380px;
+}
+
+.xdog2 img{
+    width: 290px;
+    height: 380px;
+}
+
+.xbrownie2 img{
+    width: 290px;
+    height: 380px;
+}
+
+.formulario{
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 28rem;
+    background-color: white;
+    padding: 4rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1.8rem rgba(225, 164, 58, 0.64);
+}
+
+#form{
+    font-size: 1.3125rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 5rem ;
+}
+
+label{
+    width: 100%;
+    color: #777;
+    align-self: flex-start;
+    transition: 0.15s linear;
+
+}
+
+label:focus-within{
+    color: #ff8400;
+}
+
+input{
+    font-size: 1.1875rem;
+    color: #404040;
+    padding: 1rem 0 0 5rem 0;
+    width: 100%;
+    border: none;
+    border-color: #a0a0a0;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    margin-bottom: 3rem;
+    transition: 0.15s linear;
+}
+
+input:focus{
+    outline: none;
+    border-color: #ff8400;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 3rem;
+}   
+
+.autenticado{
+    font-size: 100px;
+   
+}
+
+footer{
+    background-color: rgba(137, 134, 134, 0.678);
+    color: black;
+}
+
+#timer{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 191, 0);
+}
